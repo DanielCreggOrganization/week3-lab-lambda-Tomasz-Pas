@@ -18,8 +18,8 @@ public class Main {
         System.out.println("Apply uppercase: " + toUpperCase.apply("hello world") );
         Thread thread = new Thread(task);
         thread.start();
-        int result = square.calculation(5);
-        System.out.println("Square of 5 is: " + result);
+        int result = square.calculation(7);
+        System.out.println("Square of 7 is: " + result);
 
         String ans = combinedOperation.apply("Hello World From TOMASZ");
         System.out.println("Result: " + ans);
