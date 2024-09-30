@@ -15,7 +15,7 @@ public class Main {
         Function<String, String> combinedOperation = trim.andThen(replaceSpaces).andThen(toLowerCase);
 
         System.out.println("Addition: " + addition.operate(5, 3));
-        System.out.println("Apply uppercase: " + toUpperCase.apply("hello world") );
+        System.out.println("Apply uppercase: " + toUpperCase.apply("hello world"));
         Thread thread = new Thread(task);
         thread.start();
         int result = square.calculation(7);
